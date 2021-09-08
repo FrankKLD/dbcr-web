@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import AdminTemplate from "../views/AdminTemplate";
+import AdminTemplate from "../templates/AdminTemplate";
 
 const Routes: React.FC = () => {
   return (

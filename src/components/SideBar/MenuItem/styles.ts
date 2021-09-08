@@ -43,18 +43,18 @@ export const IconArea = styled.div`
     display: flex;
     max-width: 24px;
     max-height: 24px;
-    margin-right: 18px;
+    margin-right: 12px;
   }
 `;
 
 export const StyledTooltip = withStyles({
   tooltip: {
     padding: "12px",
-    color: "var(--white)",
-    backgroundColor: "var(--toolTip-background)",
+    color: "var(--default-tooltip-text)",
+    backgroundColor: "var(--default-tooltip-background)",
     borderRadius: "12px",
   },
   arrow: {
-    color: "var(--toolTip-background)",
+    color: "var(--default-tooltip-background)",
   },
 })(Tooltip);

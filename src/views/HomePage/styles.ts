@@ -15,9 +15,9 @@ export const Content = styled.div`
 
   width: 100%;
 
-  padding: 24px;
+  padding: 30px 26px;
 
-  overflow-y: hidden;
+  overflow-y: auto;
 `;
 
 export const Title = styled.div`
@@ -26,6 +26,4 @@ export const Title = styled.div`
   color: var(--default-title);
   font-size: 26px;
   font-weight: bold;
-
-  padding-bottom: 12px;
 `;

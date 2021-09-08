@@ -61,5 +61,7 @@ export default createGlobalStyle`
 
   --default-credits-text: var(--THEME_COLOR_003);
 
+  --default-tooltip-text: var(--THEME_COLOR_003);
+  --default-tooltip-background: var(--THEME_COLOR_006);
 }
 `;

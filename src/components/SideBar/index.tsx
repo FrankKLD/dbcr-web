@@ -9,7 +9,7 @@ const menuItems = [
     id: 2,
     link: "/new-tag",
     icon: "Portrait",
-    title: "Novo Crachá sdfsdfsdfsdfsdfsdfs",
+    title: "Novo Crachá",
     tooltip: "Ir para Novo Crachá",
   },
   {
@@ -58,7 +58,7 @@ const SideBar: React.FC<Props> = ({ idSelectedMenuItem }) => {
 
         <Credits>
           <p>
-            Licenciado para <b>SUPERMERCADOS DB LTDA</b>
+            Licenciado para <span>SUPERMERCADOS DB LTDA</span>
           </p>
           <p>
             Desenvolvido por <span>Frank Matos</span>

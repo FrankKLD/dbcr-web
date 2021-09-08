@@ -91,11 +91,11 @@ export const Avatar = styled(UserCircle)`
 export const StyledTooltip = withStyles({
   tooltip: {
     padding: "12px",
-    color: "var(--white)",
-    backgroundColor: "var(--toolTip-background)",
+    color: "var(--default-tooltip-text)",
+    backgroundColor: "var(--default-tooltip-background)",
     borderRadius: "12px",
   },
   arrow: {
-    color: "var(--toolTip-background)",
+    color: "var(--default-tooltip-background)",
   },
 })(Tooltip);
