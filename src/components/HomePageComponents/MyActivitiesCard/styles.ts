@@ -11,6 +11,12 @@ export const Container = styled.div`
 
   min-width: 300px;
   min-height: 223px;
+
+  transition: var(--default-transition-delay);
+
+  :hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+  }
 `;
 
 export const Title = styled.div`

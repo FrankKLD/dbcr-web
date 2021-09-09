@@ -40,8 +40,18 @@ export const MarksSelectedArea = styled.div`
 
   display: flex;
   align-items: center;
+  padding: 6px 12px;
+
   font-size: 12px;
   color: var(--default-text);
+  background: var(--mark-selecteds-background);
+  border-radius: 6px;
+
+  transition: var(--default-transition-delay);
+
+  :hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+  }
 `;
 
 export const TableArea = styled.div`
@@ -85,6 +95,9 @@ export const TrashIcon = styled(Trash)`
   margin: 3px;
 
   color: var(--table-actions-button-color);
+
+  transition: var(--default-transition-delay);
+
   :hover {
     cursor: pointer;
     color: var(--table-actions-button-color-hover);
@@ -97,6 +110,9 @@ export const CheckIcon = styled(CheckCircle)`
   margin: 3px;
 
   color: var(--table-actions-button-color);
+
+  transition: var(--default-transition-delay);
+
   :hover {
     cursor: pointer;
     color: var(--table-actions-button-color-hover);
@@ -109,6 +125,9 @@ export const EyeIcon = styled(Eye)`
   margin: 3px;
 
   color: var(--table-actions-button-color);
+
+  transition: var(--default-transition-delay);
+
   :hover {
     cursor: pointer;
     color: var(--table-actions-button-color-hover);
@@ -121,6 +140,9 @@ export const TagsIcon = styled(Tags)`
   margin: 3px;
 
   color: var(--table-actions-button-color);
+
+  transition: var(--default-transition-delay);
+
   :hover {
     cursor: pointer;
     color: var(--table-actions-button-color-hover);
@@ -139,6 +161,9 @@ export const PreviousButton = styled(ArrowLeftCircleFill)`
   margin: 0 18px;
   width: 16px;
   color: var(--table-paginations-button);
+
+  transition: var(--default-transition-delay);
+
   :hover {
     cursor: pointer;
     color: var(--table-paginations-button-hover);
@@ -150,6 +175,9 @@ export const NextButton = styled(ArrowRightCircleFill)`
   margin: 0 18px;
   width: 16px;
   color: var(--table-paginations-button);
+
+  transition: var(--default-transition-delay);
+
   :hover {
     cursor: pointer;
     color: var(--table-paginations-button-hover);
@@ -162,6 +190,9 @@ export const PagesArea = styled.div`
   > div {
     margin: 0 6px;
     color: var(--table-paginations-button);
+
+    transition: var(--default-transition-delay);
+
     :hover {
       cursor: pointer;
       color: var(--table-paginations-button-hover);

@@ -19,7 +19,25 @@ export const SideBarArea = styled.div`
   background-color: white;
 
   width: 100%;
-  height: 100%;
+  min-height: calc(100vh - 120px);
+  overflow-y: auto;
+
+  ::-webkit-scrollbar {
+    float: right;
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--default-scroll);
+    border-radius: 4px;
+
+    :hover {
+      background-color: var(--default-background-scroll-hover);
+    }
+  }
+  ::-webkit-scrollbar-track {
+    background-color: var(--default-background-scroll);
+    border-radius: 4px;
+  }
 `;
 
 export const MenuList = styled.div`

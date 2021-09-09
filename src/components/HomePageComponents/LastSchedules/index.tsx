@@ -46,7 +46,7 @@ const LastShcedules: React.FC = () => {
         </MarksArea>
       </HeaderArea>
       <MarksSelectedArea>
-        <b>Selecionados: </b>
+        <b>Filtros: </b>
         <All />
         {isWaiting && <Waiting />}
         {isPending && <Pending />}

@@ -43,6 +43,9 @@ export default createGlobalStyle`
   --THEME_COLOR_018: #CCF6E4;
 
   --default-transition-delay: 0.7s;
+  --default-scroll: var(--THEME_COLOR_003);
+  --default-background-scroll-hover: var(--THEME_COLOR_001);
+  --default-background-scroll: var(--THEME_COLOR_006);
 
   --principal: var(--THEME_COLOR_001);
   --white: var(--THEME_COLOR_008);
@@ -73,6 +76,8 @@ export default createGlobalStyle`
 
   --default-card-text: var(--THEME_COLOR_001);
   --default-card-background: var(--THEME_COLOR_007);
+
+  --mark-selecteds-background: var(--THEME_COLOR_007);
 
   --mark-all-text: var(--THEME_COLOR_003);
   --mark-all-background: var(--THEME_COLOR_008);

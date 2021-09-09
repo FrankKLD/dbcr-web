@@ -16,8 +16,25 @@ export const Content = styled.div`
   width: 100%;
 
   padding: 30px 26px;
-
+  height: calc(100vh - 120px);
   overflow-y: auto;
+
+  ::-webkit-scrollbar {
+    float: right;
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--default-scroll);
+    border-radius: 4px;
+
+    :hover {
+      background-color: var(--default-background-scroll-hover);
+    }
+  }
+  ::-webkit-scrollbar-track {
+    background-color: var(--default-background-scroll);
+    border-radius: 4px;
+  }
 `;
 
 export const Title = styled.div`
