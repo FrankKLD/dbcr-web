@@ -94,5 +94,13 @@ export default createGlobalStyle`
   --mark-success-background: var(--THEME_COLOR_018);
   --mark-success-border: var(--THEME_COLOR_001);
 
+  --table-head-title: var(--THEME_COLOR_001);
+  --table-body-text: var(--THEME_COLOR_003);
+  --table-body-background: var(--THEME_COLOR_007);
+  --table-actions-button-color: var(--THEME_COLOR_003);
+  --table-actions-button-color-hover: var(--THEME_COLOR_001);
+  --table-paginations-button: var(--THEME_COLOR_003);
+  --table-paginations-button-hover: var(--THEME_COLOR_001);
+
 }
 `;

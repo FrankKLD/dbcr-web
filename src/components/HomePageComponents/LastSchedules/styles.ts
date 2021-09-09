@@ -1,4 +1,12 @@
 import styled from "styled-components";
+import {
+  Trash,
+  CheckCircle,
+  Eye,
+  Tags,
+  ArrowLeftCircleFill,
+  ArrowRightCircleFill,
+} from "styled-icons/bootstrap";
 
 export const Container = styled.div`
   display: flex;
@@ -7,6 +15,7 @@ export const Container = styled.div`
 
   width: 100%;
 `;
+
 export const HeaderArea = styled.div`
   display: flex;
   justify-content: space-between;
@@ -33,4 +42,129 @@ export const MarksSelectedArea = styled.div`
   align-items: center;
   font-size: 12px;
   color: var(--default-text);
+`;
+
+export const TableArea = styled.div`
+  margin-top: 12px;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+`;
+
+export const Table = styled.table`
+  width: 100%;
+  font-size: 16px;
+  border-collapse: collapse;
+
+  > thead tr td {
+    padding: 12px;
+    color: var(--table-head-title);
+    border-bottom: 1px solid var(--table-body-text);
+  }
+
+  > tbody tr td {
+    padding: 12px;
+    color: var(--table-body-text);
+  }
+
+  tr:nth-child(2n + 1) {
+    background-color: var(--table-body-background);
+  }
+`;
+
+export const ActionsArea = styled.div`
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+`;
+
+export const TrashIcon = styled(Trash)`
+  display: flex;
+  width: 16px;
+  margin: 3px;
+
+  color: var(--table-actions-button-color);
+  :hover {
+    cursor: pointer;
+    color: var(--table-actions-button-color-hover);
+  }
+`;
+
+export const CheckIcon = styled(CheckCircle)`
+  display: flex;
+  width: 16px;
+  margin: 3px;
+
+  color: var(--table-actions-button-color);
+  :hover {
+    cursor: pointer;
+    color: var(--table-actions-button-color-hover);
+  }
+`;
+
+export const EyeIcon = styled(Eye)`
+  display: flex;
+  width: 16px;
+  margin: 3px;
+
+  color: var(--table-actions-button-color);
+  :hover {
+    cursor: pointer;
+    color: var(--table-actions-button-color-hover);
+  }
+`;
+
+export const TagsIcon = styled(Tags)`
+  display: flex;
+  width: 16px;
+  margin: 3px;
+
+  color: var(--table-actions-button-color);
+  :hover {
+    cursor: pointer;
+    color: var(--table-actions-button-color-hover);
+  }
+`;
+
+export const PaginationsArea = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 36px;
+`;
+
+export const PreviousButton = styled(ArrowLeftCircleFill)`
+  display: flex;
+  margin: 0 18px;
+  width: 16px;
+  color: var(--table-paginations-button);
+  :hover {
+    cursor: pointer;
+    color: var(--table-paginations-button-hover);
+  }
+`;
+
+export const NextButton = styled(ArrowRightCircleFill)`
+  display: flex;
+  margin: 0 18px;
+  width: 16px;
+  color: var(--table-paginations-button);
+  :hover {
+    cursor: pointer;
+    color: var(--table-paginations-button-hover);
+  }
+`;
+
+export const PagesArea = styled.div`
+  display: flex;
+
+  > div {
+    margin: 0 6px;
+    color: var(--table-paginations-button);
+    :hover {
+      cursor: pointer;
+      color: var(--table-paginations-button-hover);
+    }
+  }
 `;
