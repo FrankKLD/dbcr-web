@@ -29,7 +29,7 @@ export default createGlobalStyle`
   --THEME_COLOR_004: #C6CEEA;
   --THEME_COLOR_005: #F2F8F2;
   --THEME_COLOR_006: #E3E6EA;
-  --THEME_COLOR_007: #F7F8FA;
+  --THEME_COLOR_007: #EFF0F2;
   --THEME_COLOR_008: #FFFFFF;
   --THEME_COLOR_009: #FE7271;
   --THEME_COLOR_010: #FC9797;
@@ -77,7 +77,7 @@ export default createGlobalStyle`
   --default-card-text: var(--THEME_COLOR_001);
   --default-card-background: var(--THEME_COLOR_007);
 
-  --mark-selecteds-background: var(--THEME_COLOR_007);
+  --mark-selecteds-background: var(--THEME_COLOR_008);
 
   --mark-all-text: var(--THEME_COLOR_003);
   --mark-all-background: var(--THEME_COLOR_008);

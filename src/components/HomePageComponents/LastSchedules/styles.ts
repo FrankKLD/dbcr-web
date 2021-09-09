@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import Tooltip from "@material-ui/core/Tooltip";
+import { withStyles } from "@material-ui/core/styles";
 import {
-  Trash,
+  Backspace,
   CheckCircle,
   Eye,
   Tags,
@@ -64,7 +66,7 @@ export const TableArea = styled.div`
 
 export const Table = styled.table`
   width: 100%;
-  font-size: 16px;
+  font-size: 14px;
   border-collapse: collapse;
 
   > thead tr td {
@@ -89,7 +91,7 @@ export const ActionsArea = styled.div`
   padding: 5px;
 `;
 
-export const TrashIcon = styled(Trash)`
+export const TrashIcon = styled(Backspace)`
   display: flex;
   width: 16px;
   margin: 3px;
@@ -199,3 +201,15 @@ export const PagesArea = styled.div`
     }
   }
 `;
+
+export const StyledTooltip = withStyles({
+  tooltip: {
+    padding: "12px",
+    color: "var(--default-tooltip-text)",
+    backgroundColor: "var(--default-tooltip-background)",
+    borderRadius: "12px",
+  },
+  arrow: {
+    color: "var(--default-tooltip-background)",
+  },
+})(Tooltip);

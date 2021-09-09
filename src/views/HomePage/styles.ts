@@ -4,14 +4,14 @@ export const Container = styled.div`
   grid-area: CA;
   display: flex;
 
-  padding: 12px 12px 12px 0;
+  padding: 12px;
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   background: var(--background-sections);
-  border-radius: 24px;
+  border-radius: 12px;
 
   width: 100%;
 

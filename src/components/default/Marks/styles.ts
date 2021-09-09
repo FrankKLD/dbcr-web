@@ -1,11 +1,6 @@
 import styled from "styled-components";
-import {
-  AccessTime,
-  Pending,
-  Cancel,
-  Check,
-} from "styled-icons/material-outlined";
-import { Check2All } from "styled-icons/bootstrap";
+import { AccessTime, Pending, Cancel } from "styled-icons/material-outlined";
+import { Check2All, CheckAll } from "styled-icons/bootstrap";
 
 export const MarkAll = styled.div`
   display: flex;
@@ -176,7 +171,7 @@ export const CancelIcon = styled(Cancel)`
   margin-left: 3px;
   width: 12px;
 `;
-export const CheckIcon = styled(Check)`
+export const CheckIcon = styled(CheckAll)`
   display: flex;
   align-content: center;
   margin-left: 3px;

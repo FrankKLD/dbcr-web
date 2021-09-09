@@ -15,7 +15,7 @@ import {
 
 export const All: React.FC = () => {
   return (
-    <MarkAll>
+    <MarkAll title="Todos os Filtros">
       <span>Todos</span>
       <CheckAllIcon />
     </MarkAll>
@@ -24,7 +24,7 @@ export const All: React.FC = () => {
 
 export const Waiting: React.FC = () => {
   return (
-    <MarkWaiting>
+    <MarkWaiting title="Aguardando">
       <span>Aguardando</span>
       <AccessTimeIcon />
     </MarkWaiting>
@@ -33,7 +33,7 @@ export const Waiting: React.FC = () => {
 
 export const Pending: React.FC = () => {
   return (
-    <MarkPending>
+    <MarkPending title="Pendente">
       <span>Pendente</span>
       <PendingIcon />
     </MarkPending>
@@ -42,7 +42,7 @@ export const Pending: React.FC = () => {
 
 export const Canceled: React.FC = () => {
   return (
-    <MarkCanceled>
+    <MarkCanceled title="Cancelado">
       <span>Cancelado</span>
       <CancelIcon />
     </MarkCanceled>
@@ -51,7 +51,7 @@ export const Canceled: React.FC = () => {
 
 export const Success: React.FC = () => {
   return (
-    <MarkSuccess>
+    <MarkSuccess title="Sucesso">
       <span>Sucesso</span>
       <CheckIcon />
     </MarkSuccess>

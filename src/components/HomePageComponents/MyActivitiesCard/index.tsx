@@ -32,7 +32,7 @@ const MyLastAccessCard: React.FC = () => {
 
   return (
     <Container>
-      <Title>Minhas Atividades</Title>
+      <Title>Minhas Atividades nesta Semana</Title>
       <Bar data={data} options={options} />
     </Container>
   );

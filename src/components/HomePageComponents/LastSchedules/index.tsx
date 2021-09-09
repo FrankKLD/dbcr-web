@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { All, Waiting, Pending, Canceled, Success } from "../../default/Marks";
+import Zoom from "@material-ui/core/Zoom";
 
+import { All, Waiting, Pending, Canceled, Success } from "../../default/Marks";
 import {
   ActionsArea,
   CheckIcon,
@@ -13,6 +14,7 @@ import {
   PagesArea,
   PaginationsArea,
   PreviousButton,
+  StyledTooltip,
   Table,
   TableArea,
   TagsIcon,
@@ -75,7 +77,85 @@ const LastShcedules: React.FC = () => {
               <td>01/01/2021</td>
               <td>16:35</td>
               <td>
-                <Pending />
+                <Canceled />
+              </td>
+              <td>
+                <ActionsArea>
+                  <StyledTooltip
+                    TransitionComponent={Zoom}
+                    leaveDelay={300}
+                    title={
+                      <>
+                        <b>Ação CANCELAR</b>
+                        <p>Esta ação cancelará este agendamento.</p>
+                      </>
+                    }
+                    arrow
+                  >
+                    <TrashIcon />
+                  </StyledTooltip>
+
+                  <StyledTooltip
+                    TransitionComponent={Zoom}
+                    leaveDelay={300}
+                    title={
+                      <>
+                        <b>Ação ACEITAR</b>
+                        <p>
+                          Esta ação aceitará o agendamento, possibilitando a
+                          emissão do Crachá.
+                        </p>
+                      </>
+                    }
+                    arrow
+                  >
+                    <CheckIcon />
+                  </StyledTooltip>
+
+                  <StyledTooltip
+                    TransitionComponent={Zoom}
+                    leaveDelay={300}
+                    title={
+                      <>
+                        <b>Ação VISUALIZAR</b>
+                        <p>
+                          Esta ação visualizará o agendamento, exibindo todas as
+                          informações.
+                        </p>
+                      </>
+                    }
+                    arrow
+                  >
+                    <EyeIcon />
+                  </StyledTooltip>
+
+                  <StyledTooltip
+                    TransitionComponent={Zoom}
+                    leaveDelay={300}
+                    title={
+                      <>
+                        <b>Ação EMITIR CRACHÁ</b>
+                        <p>
+                          Esta ação levará-lo para uma tela de Emissão de
+                          Crachá.
+                        </p>
+                      </>
+                    }
+                    arrow
+                  >
+                    <TagsIcon />
+                  </StyledTooltip>
+                </ActionsArea>
+              </td>
+            </tr>
+            <tr>
+              <td>105</td>
+              <td>José Augusto da Silva Monteiro | 01234</td>
+              <td>Loja 01 - Matriz / AM</td>
+              <td>01/01/2021</td>
+              <td>16:35</td>
+              <td>
+                <Waiting />
               </td>
               <td>
                 <ActionsArea>
@@ -96,28 +176,7 @@ const LastShcedules: React.FC = () => {
               <td>01/01/2021</td>
               <td>16:35</td>
               <td>
-                <Pending />
-              </td>
-              <td>
-                <ActionsArea>
-                  <TrashIcon />
-
-                  <CheckIcon />
-
-                  <EyeIcon />
-
-                  <TagsIcon />
-                </ActionsArea>
-              </td>
-            </tr>
-            <tr>
-              <td>105</td>
-              <td>José Augusto da Silva Monteiro | 01234</td>
-              <td>Loja 01 - Matriz / AM</td>
-              <td>01/01/2021</td>
-              <td>16:35</td>
-              <td>
-                <Pending />
+                <Success />
               </td>
               <td>
                 <ActionsArea>
