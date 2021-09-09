@@ -27,3 +27,19 @@ export const Title = styled.div`
   font-size: 26px;
   font-weight: bold;
 `;
+
+export const CardArea = styled.div`
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+export const LastSchedulesArea = styled.div`
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;

@@ -12,6 +12,10 @@ export default createGlobalStyle`
     background: var(--background);
   }
 
+  .DontShowIt {
+    display: none;
+  }
+
   *, button, input {
     border: 0;
     outline: 0;
@@ -19,7 +23,7 @@ export default createGlobalStyle`
   }
 
 :root {
-  --THEME_COLOR_001: #06A78D;
+  --THEME_COLOR_001: #06A78D; 
   --THEME_COLOR_002: #FDE6D8;
   --THEME_COLOR_003: #7D899B;
   --THEME_COLOR_004: #C6CEEA;
@@ -34,6 +38,9 @@ export default createGlobalStyle`
   --THEME_COLOR_013: #FFDDDC;
   --THEME_COLOR_014: #FFFFFF;
   --THEME_COLOR_015: #FFFFFF;
+  --THEME_COLOR_016: #3752B4;
+  --THEME_COLOR_017: #ba7f5b;
+  --THEME_COLOR_018: #CCF6E4;
 
   --default-transition-delay: 0.7s;
 
@@ -63,5 +70,29 @@ export default createGlobalStyle`
 
   --default-tooltip-text: var(--THEME_COLOR_003);
   --default-tooltip-background: var(--THEME_COLOR_006);
+
+  --default-card-text: var(--THEME_COLOR_001);
+  --default-card-background: var(--THEME_COLOR_007);
+
+  --mark-all-text: var(--THEME_COLOR_003);
+  --mark-all-background: var(--THEME_COLOR_008);
+  --mark-all-border: var(--THEME_COLOR_003);
+
+  --mark-waiting-text: var(--THEME_COLOR_016);
+  --mark-waiting-background: var(--THEME_COLOR_004);
+  --mark-waiting-border: var(--THEME_COLOR_016);
+
+  --mark-pending-text: var(--THEME_COLOR_017);
+  --mark-pending-background: var(--THEME_COLOR_002);
+  --mark-pending-border: var(--THEME_COLOR_017);
+
+  --mark-canceled-text: var(--THEME_COLOR_003);
+  --mark-canceled-background: var(--THEME_COLOR_006);
+  --mark-canceled-border: var(--THEME_COLOR_003);
+
+  --mark-success-text: var(--THEME_COLOR_001);
+  --mark-success-background: var(--THEME_COLOR_018);
+  --mark-success-border: var(--THEME_COLOR_001);
+
 }
 `;
