@@ -72,7 +72,7 @@ const LastShcedules: React.FC = () => {
           <tbody>
             <tr>
               <td>105</td>
-              <td>José Augusto da Silva Monteiro | 01234</td>
+              <td className="Left">José Augusto da Silva | 12345</td>
               <td>Loja 01 - Matriz / AM</td>
               <td>01/01/2021</td>
               <td>16:35</td>
@@ -150,7 +150,7 @@ const LastShcedules: React.FC = () => {
             </tr>
             <tr>
               <td>105</td>
-              <td>José Augusto da Silva Monteiro | 01234</td>
+              <td className="Left">José Monteiro | 01234</td>
               <td>Loja 01 - Matriz / AM</td>
               <td>01/01/2021</td>
               <td>16:35</td>
@@ -171,7 +171,7 @@ const LastShcedules: React.FC = () => {
             </tr>
             <tr>
               <td>105</td>
-              <td>José Augusto da Silva Monteiro | 01234</td>
+              <td className="Left">José Augusto da Silva Monteiro | 01234</td>
               <td>Loja 01 - Matriz / AM</td>
               <td>01/01/2021</td>
               <td>16:35</td>
@@ -192,7 +192,7 @@ const LastShcedules: React.FC = () => {
             </tr>
             <tr>
               <td>105</td>
-              <td>José Augusto da Silva Monteiro | 01234</td>
+              <td className="Left">José | 01234</td>
               <td>Loja 01 - Matriz / AM</td>
               <td>01/01/2021</td>
               <td>16:35</td>

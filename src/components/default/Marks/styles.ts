@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { AccessTime, Pending, Cancel } from "styled-icons/material-outlined";
-import { Check2All, CheckAll } from "styled-icons/bootstrap";
+import { Check2All, Check2Circle } from "styled-icons/bootstrap";
 
 export const MarkAll = styled.div`
   display: flex;
@@ -171,7 +171,7 @@ export const CancelIcon = styled(Cancel)`
   margin-left: 3px;
   width: 12px;
 `;
-export const CheckIcon = styled(CheckAll)`
+export const CheckIcon = styled(Check2Circle)`
   display: flex;
   align-content: center;
   margin-left: 3px;

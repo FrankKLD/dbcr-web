@@ -4,7 +4,7 @@ import NavBar from "../../components/NavBar";
 import SideBar from "../../components/SideBar";
 
 import { Grid } from "./styles";
-import AdminRoutes from "../../Routes/adminRoutes";
+import SystemRoutes from "../../Routes/SystemRoutes";
 
 import GlobalStyles from "../../styles/GlobalStyles";
 
@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
 
         <SideBar idSelectedMenuItem={1} />
 
-        <AdminRoutes />
+        <SystemRoutes />
       </Grid>
 
       <GlobalStyles />

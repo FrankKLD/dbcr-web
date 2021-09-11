@@ -69,15 +69,21 @@ export const Table = styled.table`
   font-size: 14px;
   border-collapse: collapse;
 
+  .Left {
+    text-align: left;
+  }
+
   > thead tr td {
     padding: 12px;
     color: var(--table-head-title);
+    text-align: center;
     border-bottom: 1px solid var(--table-body-text);
   }
 
   > tbody tr td {
     padding: 12px;
     color: var(--table-body-text);
+    text-align: center;
   }
 
   tr:nth-child(2n + 1) {
@@ -88,6 +94,7 @@ export const Table = styled.table`
 export const ActionsArea = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   padding: 5px;
 `;
 
