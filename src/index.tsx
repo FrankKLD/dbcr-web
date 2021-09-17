@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import AdminTemplate from "./templates/AdminTemplate";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<AdminTemplate />, document.getElementById("root"));

@@ -106,6 +106,17 @@ export default createGlobalStyle`
   --table-actions-button-color-hover: var(--THEME_COLOR_001);
   --table-paginations-button: var(--THEME_COLOR_003);
   --table-paginations-button-hover: var(--THEME_COLOR_001);
+  --table-schedule-background: var(--THEME_COLOR_006);
+  --table-schedule-title: var(--THEME_COLOR_001);
+  --table-schedule-title-description: var(--THEME_COLOR_003);
+  --table-schedule-title-description-value: var(--THEME_COLOR_010);
+  --table-schedule-backgroung-button: var(--THEME_COLOR_003);
+  --table-schedule-text-button: var(--THEME_COLOR_008);
+  --table-do-tag-backgroung-button: var(--THEME_COLOR_001);
+  --table-do-tag-text-button: var(--THEME_COLOR_008);
+  --table-close-backgroung-button: var(--THEME_COLOR_010);
+  --table-close-text-button: var(--THEME_COLOR_008);
+
 
 }
 `;

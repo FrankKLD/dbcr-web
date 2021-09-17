@@ -21,6 +21,7 @@ import {
   Title,
   TrashIcon,
 } from "./styles";
+import Schedule from "../Schedule";
 
 const LastShcedules: React.FC = () => {
   const [isWaiting, setIsWaiting] = useState(false);
@@ -146,6 +147,11 @@ const LastShcedules: React.FC = () => {
                     <TagsIcon />
                   </StyledTooltip>
                 </ActionsArea>
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={7}>
+                <Schedule />
               </td>
             </tr>
             <tr>

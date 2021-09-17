@@ -35,7 +35,7 @@ export const SearchInput = styled.input`
   width: 100%;
 
   &::placeholder {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: normal;
     color: var(--default-input-placeholder);
   }
