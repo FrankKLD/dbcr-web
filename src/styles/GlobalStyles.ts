@@ -117,6 +117,7 @@ export default createGlobalStyle`
   --table-close-backgroung-button: var(--THEME_COLOR_010);
   --table-close-text-button: var(--THEME_COLOR_008);
 
-
+  --create-tags-border: var(--THEME_COLOR_004);
+  --create-tags-input-border: var(--THEME_COLOR_004);
 }
 `;
