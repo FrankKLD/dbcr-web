@@ -119,5 +119,13 @@ export default createGlobalStyle`
 
   --create-tags-border: var(--THEME_COLOR_004);
   --create-tags-input-border: var(--THEME_COLOR_004);
+  --create-tags-form-text: var(--THEME_COLOR_003);
+  --create-tags-form-data-tag-background: var(--THEME_COLOR_007);
+  --create-tags-form-front-tag-background: var(--THEME_COLOR_007);
+  --create-tags-form-back-tag-background: var(--THEME_COLOR_007);
+  --create-tags-form-front-tag-border: var(--THEME_COLOR_004);
+  --create-tags-form-back-tag-border: var(--THEME_COLOR_004);
+  --create-tags-form-front-tag-color: var(--THEME_COLOR_003);
+  --create-tags-form-back-tag-color: var(--THEME_COLOR_003);
 }
 `;
