@@ -4,9 +4,10 @@ import NavBar from "../../components/NavBar";
 import SideBar from "../../components/SideBar";
 
 import { Grid } from "./styles";
-import AdminRoutes from "../../Routes/adminRoutes";
+import SystemRoutes from "../../Routes/SystemRoutes";
 
 import GlobalStyles from "../../styles/GlobalStyles";
+import { BrowserRouter } from "react-router-dom";
 
 const HomePage: React.FC = () => {
   useEffect(() => {
@@ -15,17 +16,19 @@ const HomePage: React.FC = () => {
 
   return (
     <>
-      <Grid>
-        <LogoDBCR />
+      <BrowserRouter>
+        <Grid>
+          <LogoDBCR />
 
-        <NavBar />
+          <NavBar />
 
-        <SideBar idSelectedMenuItem={1} />
+          <SideBar idSelectedMenuItem={1} />
 
-        <AdminRoutes />
-      </Grid>
+          <SystemRoutes />
+        </Grid>
 
-      <GlobalStyles />
+        <GlobalStyles />
+      </BrowserRouter>
     </>
   );
 };

@@ -15,11 +15,11 @@ export const SideBarArea = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  border-radius: 24px;
+  border-radius: 12px;
   background-color: white;
 
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 120px);
 `;
 
 export const MenuList = styled.div`
@@ -37,11 +37,10 @@ export const Credits = styled.div`
 
   color: var(--default-credits-text);
   font-size: 12px;
-  padding: 48px 0;
+  padding: 20px 0;
 
   > p > span {
     font-weight: 500;
-    text-decoration: underline;
 
     cursor: pointer;
   }

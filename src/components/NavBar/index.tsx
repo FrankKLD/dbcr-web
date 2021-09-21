@@ -24,15 +24,17 @@ const SearchArea: React.FC = () => {
         >
           <SearchIcon />
         </StyledTooltip>
-        <StyledTooltip
-          TransitionComponent={Zoom}
-          leaveDelay={300}
-          title="Pesquisar Funcionário"
-          arrow
-        >
-          <SearchInput placeholder="Pesquisar Funcionário..." />
-        </StyledTooltip>
+
+        <SearchInput
+          onKeyUp={(e: any) => {
+            if (e.key === "Enter") {
+              console.log("Este é um alert!");
+            }
+          }}
+          placeholder="Pesquisar Funcionário..."
+        />
       </SearchInputArea>
+
       <AvatarUserArea>
         <StyledTooltip
           TransitionComponent={Zoom}

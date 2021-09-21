@@ -35,7 +35,7 @@ export const SearchInput = styled.input`
   width: 100%;
 
   &::placeholder {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: normal;
     color: var(--default-input-placeholder);
   }
@@ -91,11 +91,11 @@ export const Avatar = styled(UserCircle)`
 export const StyledTooltip = withStyles({
   tooltip: {
     padding: "12px",
-    color: "var(--white)",
-    backgroundColor: "var(--toolTip-background)",
+    color: "var(--default-tooltip-text)",
+    backgroundColor: "var(--default-tooltip-background)",
     borderRadius: "12px",
   },
   arrow: {
-    color: "var(--toolTip-background)",
+    color: "var(--default-tooltip-background)",
   },
 })(Tooltip);
