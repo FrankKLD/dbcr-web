@@ -21,6 +21,7 @@ export const SearchInputArea = styled.div`
   background-color: var(--white);
 
   padding: 14px 14px 14px 14px;
+  margin: 0px 12px;
   border-radius: 12px;
 
   width: 100%;

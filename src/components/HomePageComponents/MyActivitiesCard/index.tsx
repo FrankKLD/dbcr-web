@@ -1,9 +1,27 @@
 import React from "react";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 import { Bar } from "react-chartjs-2";
 
-import { Container, Title } from "./styles";
+import { Container, TitleActivities } from "./styles";
 
 const MyLastAccessCard: React.FC = () => {
+  ChartJS.register(
+    CategoryScale,
+    LinearScale,
+    BarElement,
+    Title,
+    Tooltip,
+    Legend
+  );
+
   const data = {
     labels: ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
     datasets: [
@@ -19,20 +37,21 @@ const MyLastAccessCard: React.FC = () => {
   };
 
   const options = {
-    scales: {
-      yAxes: [
-        {
-          ticks: {
-            beginAtZero: true,
-          },
-        },
-      ],
+    responsive: true,
+    plugins: {
+      legend: {
+        position: "top" as const,
+      },
+      title: {
+        display: true,
+        text: "Chart.js Bar Chart",
+      },
     },
   };
 
   return (
     <Container>
-      <Title>Minhas Atividades nesta Semana</Title>
+      <TitleActivities>Minhas Atividades nesta Semana</TitleActivities>
       <Bar data={data} options={options} />
     </Container>
   );

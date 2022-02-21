@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, Logo, Title } from "./styles";
+import { Container, First, Logo, Second, Title } from "./styles";
 
 import SvgLogo from "../../assets/logo.svg";
 
@@ -9,7 +9,10 @@ const LogoDBCR: React.FC = () => {
     <Container>
       <Logo>
         <img src={SvgLogo} alt="DBCR - Supermercados DB LTDA" />
-        <Title>DBCR</Title>
+        <Title>
+          <First>DB</First>
+          <Second>CR</Second>
+        </Title>
       </Logo>
     </Container>
   );

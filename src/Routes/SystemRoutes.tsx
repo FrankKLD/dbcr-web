@@ -1,18 +1,18 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import HomePage from "../views/HomePage";
 import NewTagPage from "../views/NewTagPage";
 import SearchPage from "../views/SearchPage";
 
-const Routes: React.FC = () => {
+const Routers: React.FC = () => {
   return (
-    <Switch>
-      <Route path="/" exact component={HomePage} />
-      <Route path="/search" component={SearchPage} />
-      <Route path="/new-tag" component={NewTagPage} />
-    </Switch>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/search" element={<SearchPage />} />
+      <Route path="/new-tag" element={<NewTagPage />} />
+    </Routes>
   );
 };
 
-export default Routes;
+export default Routers;

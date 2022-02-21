@@ -19,7 +19,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Title = styled.div`
+export const TitleActivities = styled.div`
   display: flex;
   font-size: 20px;
   font-weight: bold;

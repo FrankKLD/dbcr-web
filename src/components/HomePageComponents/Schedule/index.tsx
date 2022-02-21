@@ -18,7 +18,7 @@ const Schedule: React.FC = () => {
   return (
     <Container>
       <Title>
-        Agendamento para: <strong>Frank Matos</strong> |
+        Agendamento para: <strong>José Augusto da Silva - 12345</strong> |
         <span>
           {" "}
           Já existe Agendamento: <strong>Sim (01/01/2021)</strong>

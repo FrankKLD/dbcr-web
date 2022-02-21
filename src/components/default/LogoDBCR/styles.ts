@@ -29,6 +29,15 @@ export const Title = styled.div`
   color: var(--principal);
   font-weight: 500;
   font-size: 26px;
+  font-style: italic;
 
   margin-left: 12px;
+`;
+
+export const First = styled.span`
+  color: var(--logo-first-color);
+`;
+
+export const Second = styled.span`
+  color: var(--logo-second-color);
 `;

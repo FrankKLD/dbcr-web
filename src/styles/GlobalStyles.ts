@@ -49,6 +49,9 @@ export default createGlobalStyle`
 
   --principal: var(--THEME_COLOR_001);
   --white: var(--THEME_COLOR_008);
+  
+  --logo-first-color: var(--THEME_COLOR_001);
+  --logo-second-color: var(--THEME_COLOR_003);
 
   --background: var(--THEME_COLOR_007);
   --background-sections: var(--THEME_COLOR_008);
