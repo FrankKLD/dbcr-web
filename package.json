@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": " --transpileOnly | react-scripts start",
+    "start": " --transpile-onnly | react-scripts start",
     "start-mac": "PORT=3003 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
-import LogoDBCR from "../../components/default/LogoDBCR";
-import NavBar from "../../components/NavBar";
-import SideBar from "../../components/SideBar";
 
 import { Grid } from "./styles";
-import SystemRoutes from "../../Routes/SystemRoutes";
 
-import GlobalStyles from "../../styles/GlobalStyles";
 import { BrowserRouter } from "react-router-dom";
+import LogoDBCR from "components/default/LogoDBCR";
+import NavBar from "components/NavBar";
+import SystemRoutes from "Routes/SystemRoutes";
+import GlobalStyles from "styles/GlobalStyles";
+import SideBar from "components/SideBar";
 
-const HomePage: React.FC = () => {
+const AdminTemplate: React.FC = () => {
   useEffect(() => {
     document.title = "DBCR - Home Page";
   }, []);
@@ -33,4 +33,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default AdminTemplate;

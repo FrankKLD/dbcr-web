@@ -1,7 +1,7 @@
 import React from "react";
 import Zoom from "@material-ui/core/Zoom";
 
-import { getIconFromString } from "../../../utils/IconFromString";
+import { getIconFromString } from "utils/IconFromString";
 
 import { LinkContainer, IconArea, StyledTooltip } from "./styles";
 

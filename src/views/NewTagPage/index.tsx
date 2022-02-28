@@ -1,5 +1,5 @@
 import React from "react";
-import CanvasTagDrawer from "../../components/CanvasTagDrawer";
+import CanvasTagDrawer from "components/CanvasTagDrawer";
 
 import {
   AloneColLineInput,

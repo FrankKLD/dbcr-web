@@ -1,7 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Zoom from "@material-ui/core/Zoom";
 
-import { All, Waiting, Pending, Canceled, Success } from "../../default/Marks";
+import {
+  All,
+  Waiting,
+  Pending,
+  Canceled,
+  Success,
+} from "components/default/Marks";
+
 import {
   ActionsArea,
   CheckIcon,

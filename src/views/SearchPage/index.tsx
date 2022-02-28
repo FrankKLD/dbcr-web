@@ -1,5 +1,5 @@
 import React from "react";
-import LastSchedules from "../../components/HomePageComponents/LastSchedules";
+import LastSchedules from "components/HomePageComponents/LastSchedules";
 
 import { Container, Content, LastSchedulesArea, Title } from "./styles";
 
